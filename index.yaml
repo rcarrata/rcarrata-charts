@@ -1,0 +1,50 @@
+apiVersion: v1
+entries:
+  argocd:
+  - apiVersion: v2
+    appVersion: 1.6.1
+    created: "2022-01-19T15:25:35.971221542Z"
+    description: A Helm chart for installing argocd operator and a basic ArgoCD instance
+    digest: b0485ba195141cbb4d383e123b1666c13a6c5292c01c45429757ca98290c0ea2
+    name: argocd
+    type: application
+    urls:
+    - https://github.com/rcarrata/rcarrata-charts/releases/download/argocd-0.1.0/argocd-0.1.0.tgz
+    version: 0.1.0
+  bootstrap-projects:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-01-19T15:25:36.129067552Z"
+    description: A Helm chart for creating initial namespaces
+    digest: 355059d0835b44aaef0008290be00bbac1b5028946f3722e769fe2886cb7b46a
+    name: bootstrap-projects
+    type: application
+    urls:
+    - https://github.com/rcarrata/rcarrata-charts/releases/download/bootstrap-projects-0.1.0/bootstrap-projects-0.1.0.tgz
+    version: 0.1.0
+  gitea:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-01-19T15:25:36.273201939Z"
+    description: A Helm chart for Kubernetes
+    digest: 83b91d8b1e4ee3b73136ff8dab609220b2733f3bc0f30009b56013572573692c
+    home: https://github.com/rcarrata/rcarrata-charts
+    icon: https://raw.githubusercontent.com/go-gitea/gitea/ee60f27aec0f75a34ae62841ed52579c0c20dcfa/assets/logo.svg
+    maintainers:
+    - name: infosec812
+    - name: rcarrata
+    name: gitea
+    type: application
+    urls:
+    - https://github.com/rcarrata/rcarrata-charts/releases/download/gitea-0.1.0/gitea-0.1.0.tgz
+    version: 0.1.0
+  mlbparks-eap:
+  - apiVersion: v2
+    created: "2022-01-19T15:25:36.413819344Z"
+    description: Application template for MLB Parks application on EAP 7 & MongoDB built using STI
+    digest: cb1a936429c3417fa7ef571301783af181f4ab5e8ca0e632d970acc799ed37e2
+    name: mlbparks-eap
+    urls:
+    - https://github.com/rcarrata/rcarrata-charts/releases/download/mlbparks-eap-v0.0.1/mlbparks-eap-v0.0.1.tgz
+    version: v0.0.1
+generated: "2022-01-19T15:25:35.711626441Z"
